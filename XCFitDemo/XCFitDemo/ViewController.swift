@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var Hello: UILabel!
-    @IBAction func ClickMe(sender: AnyObject) {
+    @IBAction func ClickMe(_ sender: AnyObject) {
         
         
         Hello.text = "WelCome"

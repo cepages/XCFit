@@ -38,6 +38,26 @@
                ReferencedContainer = "container:XCFitDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9BEA3F4B1D398F10008E89BA"
+               BuildableName = "XCFitDemoUITests.xctest"
+               BlueprintName = "XCFitDemoUITests"
+               ReferencedContainer = "container:XCFitDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9BEA3F401D398F10008E89BA"
+               BuildableName = "XCFitDemoTests.xctest"
+               BlueprintName = "XCFitDemoTests"
+               ReferencedContainer = "container:XCFitDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

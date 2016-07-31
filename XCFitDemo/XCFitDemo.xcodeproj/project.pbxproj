@@ -677,20 +677,25 @@
 				TargetAttributes = {
 					9BDAFF811D3999C800267068 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 					9BEA3F2C1D398F10008E89BA = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 					9BEA3F401D398F10008E89BA = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9BEA3F2C1D398F10008E89BA;
 					};
 					9BEA3F4B1D398F10008E89BA = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9BEA3F2C1D398F10008E89BA;
 					};
 					9BEA3F641D398FF1008E89BA = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9BEA3F2C1D398F10008E89BA;
 					};
 				};
@@ -1022,6 +1027,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Shashikant-Jagtap.XCFitAcceptanceTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "XCFitAcceptanceTests/XCFitAcceptanceTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1034,6 +1040,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Shashikant-Jagtap.XCFitAcceptanceTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "XCFitAcceptanceTests/XCFitAcceptanceTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -1126,6 +1133,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shashikant-Jagtap.XCFitDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1137,6 +1145,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shashikant-Jagtap.XCFitDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -1149,6 +1158,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shashikant-Jagtap.XCFitDemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCFitDemo.app/XCFitDemo";
 			};
 			name = Debug;
@@ -1162,6 +1172,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shashikant-Jagtap.XCFitDemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCFitDemo.app/XCFitDemo";
 			};
 			name = Release;
@@ -1173,6 +1184,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shashikant-Jagtap.XCFitDemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = XCFitDemo;
 				USES_XCTRUNNER = YES;
 			};
@@ -1185,6 +1197,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shashikant-Jagtap.XCFitDemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = XCFitDemo;
 				USES_XCTRUNNER = YES;
 			};
@@ -1204,6 +1217,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SRC_ROOT = "@\\\"$(SRCROOT)\\\"";
 				SWIFT_OBJC_BRIDGING_HEADER = "XCFitDemoCucumberishTests/XCFitDemoCucumberishTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = XCFitDemo;
 				USES_XCTRUNNER = YES;
 			};
@@ -1222,6 +1236,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Shashikant-Jagtap.XCFitDemoCucumberishTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "XCFitDemoCucumberishTests/XCFitDemoCucumberishTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = XCFitDemo;
 				USES_XCTRUNNER = YES;
 			};

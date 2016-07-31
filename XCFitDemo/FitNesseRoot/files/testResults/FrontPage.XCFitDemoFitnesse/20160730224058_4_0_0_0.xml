@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20160618</FitNesseVersion>
+  <rootPath>FrontPage.XCFitDemoFitnesse</rootPath>
+  <pageHistoryReference>
+    <name>FrontPage.XCFitDemoFitnesse.XCFitDemoFitnesseSuite.AddNumbers</name>
+    <date>2016-07-30T22:40:58+01:00</date>
+    <pageHistoryLink>FrontPage.XCFitDemoFitnesse.XCFitDemoFitnesseSuite.AddNumbers?pageHistory&amp;resultDate=20160730224058</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>1030</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.XCFitDemoFitnesse.XCFitDemoFitnesseSuite.ShouldIEat</name>
+    <date>2016-07-30T22:40:59+01:00</date>
+    <pageHistoryLink>FrontPage.XCFitDemoFitnesse.XCFitDemoFitnesseSuite.ShouldIEat?pageHistory&amp;resultDate=20160730224059</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>72</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.XCFitDemoFitnesse.XCFitDemoFitnesseSuite.ShouldIEatThree</name>
+    <date>2016-07-30T22:40:59+01:00</date>
+    <pageHistoryLink>FrontPage.XCFitDemoFitnesse.XCFitDemoFitnesseSuite.ShouldIEatThree?pageHistory&amp;resultDate=20160730224059</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>27</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.XCFitDemoFitnesse.XCFitDemoFitnesseSuite.ShouldIEatTwo</name>
+    <date>2016-07-30T22:40:59+01:00</date>
+    <pageHistoryLink>FrontPage.XCFitDemoFitnesse.XCFitDemoFitnesseSuite.ShouldIEatTwo?pageHistory&amp;resultDate=20160730224059</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>21</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:./OCSlimProjectTestRunner.sh</testSystem>
+    <command>./OCSlimProjectTestRunner.sh 8085</command>
+    <exitCode>0</exitCode>
+    <stdOut>Running Test Target "XCFitAcceptanceTests.app" with Slim Port "8085"
+Simulator Device "iPhone-6", deployment Target "9.2"
+</stdOut>
+    <stdErr>App Spec: &lt;DTiPhoneSimulatorApplicationSpecifier 0x7f844854e2b0&gt; specified by app path /Users/shashi/Library/Developer/Xcode/DerivedData/XCFitDemo-evtjijidxcoeohcdnmjdsxaofpqt/Build/Products/Debug-iphonesimulator/XCFitAcceptanceTests.app
+SDK Root: &lt;DTiPhoneSimulatorSystemRoot 0x7f8448444ea0&gt; path=/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator.sdk
+Creating named pipe at `/var/folders/p5/08pcsdfs2qs8_13vyd5mcgmm0000gn/T//ios-sim-stderr-pipe-1469914853'
+Creating named pipe at `/var/folders/p5/08pcsdfs2qs8_13vyd5mcgmm0000gn/T//ios-sim-stdout-pipe-1469914853'
+using device family iphone
+2016-07-30 22:40:54.103 ios-sim[13641:1358898] [MT] DVTAssertions: Warning in /Library/Caches/com.apple.xbs/Sources/DVTFrameworks/DVTFrameworks-9542/DVTFoundation/PlugInArchitecture/PlugInManager/DVTPlugInManager.m:259
+Details:  Requested but did not find extension point with identifier Xcode.DVTFoundation.DevicePlatformMapping
+Object:   &lt;DVTPlugInManager: 0x7f8448464020&gt;
+Method:   -extensionPointWithIdentifier:
+Thread:   &lt;NSThread: 0x7f844850ba80&gt;{number = 1, name = main}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+Session started
+Session did end with error (null)
+Removing named pipe at `/var/folders/p5/08pcsdfs2qs8_13vyd5mcgmm0000gn/T//ios-sim-stderr-pipe-1469914853'
+Removing named pipe at `/var/folders/p5/08pcsdfs2qs8_13vyd5mcgmm0000gn/T//ios-sim-stdout-pipe-1469914853'
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>4</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>7891</totalRunTimeInMillis>
+</suiteResults>
+

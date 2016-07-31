@@ -27,9 +27,9 @@ class XCFitDemoCucumberishTests: NSObject {
         }
         
         Then("I should see \"([^\\\"]*)\"") { (args, userInfo) in
-            XCTAssert(application.staticTexts[args[0]].exists)
+            XCTAssert(application.staticTexts[(args?[0])!].exists)
         }
         //Tell Cucumberish the name of your features folder and let it execute them for you...
-        Cucumberish.executeFeaturesInDirectory("Features", featureTags: nil)
+        Cucumberish.executeFeatures(inDirectory: "Features", featureTags: nil)
     }
 }
