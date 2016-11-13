@@ -195,6 +195,15 @@ Look how easy it is !
 
 You can add more feature/Scenarios and implement steps definitions inside your Swift File. [Ahmed-Ali](https://github.com/Ahmed-Ali) creator of Cucumberish already implemented useful pre-defined steps have a look at this [Swift file](https://github.com/Ahmed-Ali/Cucumberish/blob/master/CucumberishExample/CucumberishExampleUITests/CCIStepDefinitions.swift). You are free to try Page Object Pattern and all other crazy stuff to abstract and refactor your Swift code.
 
+##### Error: Use Legacy Swift Language Version” (SWIFT_VERSION) is required to be configured correctly for targets which use Swift. Use the [Edit > Convert > To Current Swift Syntax…] menu to choose a Swift version or use the Build Settings editor to configure the build setting directly.
+
+If you get this error when you build your target, it's really easy to fix.
+
+Select your Cucumberish testing target -> Select the Build Settings Tab -> Search for `Use legacy Swift Language Version` and select the option `No`
+
+With this we are telling to XCode that the testing code will be in Swift 3.0.
+
+![use legacy swift language version screen shot example](https://cloud.githubusercontent.com/assets/5259830/20247607/2f47df4a-a9c8-11e6-9454-c31ab8f0d546.png)
 
 ## Setting up Fitnesse Acceptance Target with XCTest
 
